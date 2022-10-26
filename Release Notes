@@ -1,0 +1,11 @@
+
+September 2022 (version 1 beta)
+ -==========================-
+
+MP_Path => as this file's directory
+MPINC => Includes this folder directory
+setLang($domain) => set language with $domain is value lang
+translate($text,$domain) => translate $text form $domain
+Query()->get($table_name,$column_name,$value,$limit,$other_sql)
+Query()->update($table_name, $value($column_name => $value), $where_column_name, $where_value)
+Query()->insert($table_name,$column_name(array), $value(array))
